@@ -41,14 +41,13 @@ hr{
     left: 0;
     width: 100%;
     height: 70px;
-    padding: 7px 150px;
+    padding: 7px 110px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
     z-index: 1000;
     opacity: 0.9;
-    box-sizing: border-box;
 }
 .logo{
     position: relative;
@@ -132,10 +131,8 @@ hr{
 /* --- Hero Section --- */
 
 .hero-container{
-    width: 100%;
+    width: 100px;
     height: 810px;
-    position: relative;
-    margin-top: 70px;
 }
 .bg-hero{
     position: absolute;
@@ -147,8 +144,8 @@ hr{
 }
 .hero-button{
     position: absolute;
-    top: 570px;
-    left: 240px;
+    top: 700px;
+    left: 330px;
     z-index: 10;
 }
 .button-hero{
@@ -191,22 +188,21 @@ hr{
 }
 .about{
     display: flex;
-    flex-direction: column;
-    min-height: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    height: 3000px;
     align-items: center;
-    justify-content: flex-start;
-    padding-top: 50px;
+    justify-content: center;
+    top: 0px;
 }
 .about-container{
     background-color: rgba(0,0,0, 0.4);
     color: white;
     border: 3px solid #f1f1f1;
-    position: relative;
-    margin: 30px auto;
+    position: absolute;
+    top: 350px;
     width: 80%;
     padding: 20px;
     text-align: center;
@@ -221,12 +217,14 @@ hr{
     line-height: 35px;
 }
 .bttn-left{
-    position: relative;
-    margin-top: 20px;
+    position: absolute;
+    top: 330px;
+    left: 250px;
 }
 .bttn-right{
-    position: relative;
-    margin-top: 20px;
+    position: absolute;
+    top: 330px;
+    right: 250px;
 }
 .feat-img-right{
     width: 100%;
@@ -249,44 +247,38 @@ hr{
     box-shadow: 0 0 20px white;
 }
 .h2-feat-right{
-    float: none;
-    text-align: right;
+    float: right;
 }
 .p-feat-right{
-    position: relative;
+    position: absolute;
     text-align: right;
-    right: 0;
-    top: 0;
-    width: 100%;
+    right: 20px;
+    top: 120px;
+    width: 740px;
     font-size: 15px;
-    margin: 20px 0;
 }
 .img-feat-right{
-    position: relative;
-    left: 0;
-    top: 0;
+    position: absolute;
+    left: 30px;
+    top: 50px;
     width: 590px;
-    margin: 20px auto;
 }
 .h2-feat-left{
-    float: none;
-    text-align: left;
+    float: left;
 }
 .p-feat-left{
-    position: relative;
+    position: absolute;
     text-align: left;
-    left: 0;
-    top: 0;
-    width: 100%;
+    left: 20px;
+    top: 120px;
+    width: 740px;
     font-size: 15px;
-    margin: 20px 0;
 }
 .img-feat-left{
-    position: relative;
-    right: 0;
-    top: 0;
+    position: absolute;
+    right: 30px;
+    top: 50px;
     width: 590px;
-    margin: 20px auto;
 }
 .feat-1{
     background-color: rgba(0,0,0, 0.4);
@@ -295,8 +287,8 @@ hr{
     width: 90%;
     height: 400px;
     padding: 20px;
-    position: relative;
-    margin: 30px auto;
+    position: absolute;
+    top: 950px;
 }
 .feat-2{
     background-color: rgba(0,0,0, 0.4);
@@ -306,8 +298,8 @@ hr{
     height: 400px;
     padding: 20px;
     text-align: center;
-    position: relative;
-    margin: 30px auto;
+    position: absolute;
+    top: 1450px;
 }
 .feat-3{
     background-color: rgba(0,0,0, 0.4);
@@ -317,8 +309,8 @@ hr{
     height: 400px;
     padding: 20px;
     text-align: center;
-    position: relative;
-    margin: 30px auto;
+    position: absolute;
+    top: 2000px;
 }
 .feat-4{
     background-color: rgba(0,0,0, 0.4);
@@ -328,8 +320,8 @@ hr{
     height: 400px;
     padding: 20px;
     text-align: center;
-    position: relative;
-    margin: 30px auto;
+    position: absolute;
+    top: 2500px;
 }
 /* --- End of About Section --- */
 
@@ -340,21 +332,23 @@ hr{
     height: 100%;
 }
 .download{
+    top: 100px;
     height: 130px;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    position: relative;
 }
 .dl-name{
-    position: relative;
+    position: absolute;
     color: black;
     width: 80%;
     height: 130px;
     text-align: center;
     justify-content: space-between;
     display: flex;
+    /* top: 1px; */
 }
 .dls{
     width: 500px;
@@ -375,24 +369,22 @@ hr{
 .char-bg{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 90%;
     opacity: 0.1;
+    top: 4040px;
 }
 .character-container{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 0;
     min-height: 100vh;
     overflow: hidden;
     background-color: black;
-    position: relative;
 }
 .char-head{
-    position: relative;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    position: absolute;
+    top: 4000px;
 }
 .character{
     display: flex;
@@ -437,8 +429,8 @@ hr{
     transition-delay: 1s ;
 }
 .char-button{
-    position: relative;
-    margin-top: 30px;
+    position: absolute;
+    top: 4850px;
 }
 
 /* --- End of Character Section --- */
@@ -446,52 +438,41 @@ hr{
 /* --- Footer --- */
 
 .footer{
-    height: auto;
+    height: 500px;
     background-color: #250042;
-    position: relative;
-    padding: 40px 0;
 }
 .foot-container{
     display: flex;
     width: 80%;
-    position: relative;
-    margin: 0 auto;
 }
 .foot-logo{
-    position: relative;
+    position: absolute;
     width: 300px;
-    margin-top: 20px;
-    margin-left: 0;
+    margin-top: 60px;
+    margin-left: 150px;
 }
 .netmarble{
-    position: relative;
+    position: absolute;
     width: 300px;
-    left: 0;
-    margin-top: 20px;
-    margin-left: 30px;
+    left: 800px;
 }
 .media{
     position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    margin: 30px 0;
+    left: 125px;
+    top: 340px;
+    width: 1000px;
 }
 .others{
-    position: relative;
-    right: 0;
+    position: absolute;
+    right: 230px;
     text-decoration: underline;
     color: white;
-    margin-top: 30px;
-    text-align: center;
 }
 .foot-ul{
-    position: relative;
-    right: 0;
-    margin-top: 20px;
+    position: absolute;
+    right: 260px;
+    margin-top: 70px;
     line-height: 30px;
-    text-align: center;
 }
 .foot-li{
     color: white;
@@ -513,11 +494,10 @@ hr{
     transform: translateY(-5px);
 }
 .rights{
-    position: relative;
-    left: 0;
+    position: absolute;
+    left: 130px;
     color: white;
-    margin-top: 30px;
-    text-align: center;
+    margin-top: 350px;
 }
 
 /* --- End of Footer --- */
@@ -541,15 +521,12 @@ hr{
 
 #back-to-top{
     display: none;
-    border: none;
-    background: none;
-    padding: 0;
 }
 .up-bttn{
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 40px;
+    bottom: 50px;
     right: 60px;
     background-color: white;
     box-shadow: 0 0 10px white;
@@ -557,7 +534,6 @@ hr{
     border-radius: 50%;
     cursor: pointer;
     transition: 0.5s;
-    z-index: 999;
 }
 .up-bttn:hover{
     background-color: #7c4dd8;
